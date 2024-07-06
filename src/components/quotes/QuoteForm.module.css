@@ -1,7 +1,11 @@
 .form {
     position: relative;
   }
-  
+  .btn.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    /* Additional disabled styles */
+  }
   .loading {
     position: absolute;
     width: 100%;
